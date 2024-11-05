@@ -59,6 +59,7 @@
 .header-bottom {
     background-color: #00008b;
     padding: 30px;
+    border-bottom: 3px solid #add8e6;
 }
 
 .hero {
@@ -66,4 +67,37 @@
     min-height: 400px;
     border: 1px dashed;
     max-width: 900px;
+}
+
+
+/*
+    MAIN
+*/
+.s-big, .s-small {
+    min-height: 500px;
+    margin: 50px 0;
+}
+.s-big {
+    background-color: #1e90ff;
+    width: 60%;
+}
+
+.s-small {
+    background-color: #ffc0cb;
+    width: 40%;
+}
+
+.s-bigger {
+    background-color: #228b22;
+    min-height: 900px;
+    width: 100%;
+    margin: 50px 0;
+}
+
+main section {
+    display: flex;
+}
+
+main > :nth-child(even) {
+    background-color: #d3d3d3;
 }
